@@ -31,7 +31,7 @@ public class PilaLifo<Generico> {
 
     private void añadirElementoPila(Generico o) {
         if (!pilaLlena()) {
-            this.pila.add(0,o);
+            this.pila.add(0, o);
         }
     }
 
